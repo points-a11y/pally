@@ -1,0 +1,35 @@
+{
+   "name": "accessible-blog-theme",
+   "version": "0.0.1",
+   "description": "Accessible Blog Theme",
+   "main": "assets/js/main.js",
+   "scripts": {
+      "start": "webpack -w"
+   },
+   "author": "Kerstin Maier, km@points.de, Viktor Haufler, vh@points.de",
+   "license": "ISC",
+   "devDependencies": {
+      "@babel/core": "^7.2.2",
+      "@babel/plugin-proposal-class-properties": "^7.8.3",
+      "@babel/preset-env": "^7.8.4",
+      "@babel/preset-react": "^7.0.0",
+      "autoprefixer": "^9.7.4",
+      "babel-loader": "^8.0.5",
+      "css-loader": "^3.4.2",
+      "file-loader": "^5.0.0",
+      "fs-extra": "^4.0.0",
+      "html-loader": "^0.4.5",
+      "mini-css-extract-plugin": "^0.9.0",
+      "optimize-css-assets-webpack-plugin": "^5.0.3",
+      "postcss-loader": "^3.0.0",
+      "sass": "^1.60.0",
+      "sass-loader": "~10.1.1",
+      "uglifyjs-webpack-plugin": "^2.2.0",
+      "webpack": "^4.0.0",
+      "webpack-cli": "^3.0.8"
+   },
+   "dependencies": {
+      "jquery": "^3.5.1",
+      "spectre.css": "^0.5.9"
+   }
+}
